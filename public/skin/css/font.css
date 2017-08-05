@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+.imput{width:102px; height:16px; border:solid #B2B2B2 1px;}
+.color{color:#FE8908;}
+.color a{color:#FE8908;}
+.color a:hover{color:#FE8908;text-decoration:underline;}
+.color1{color:#36A30A;}
+.color1 a{color:#36A30A;text-decoration:none;}
+.color1 a:hover {color:#34A20F;text-decoration:underline;}
+.color2{color:#fff; font-weight:bold;}
+.color2 a{color:#fff;}
+.color2 a:hover {color:#fff;text-decoration:underline;}
+.border{border:solid #D8D8D8 1px; padding:1px;}
+.color3{font-family:Arial, Helvetica, sans-serif; color:#9A9A9A; font-size:10px;}

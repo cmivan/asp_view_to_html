@@ -1,0 +1,31 @@
+/* 珍惜他人劳动，转载请自觉注明出处 */
+.flashNews a {text-decoration:none;color:#353535;}
+.flashNews a:hover {color:#CD0102;}
+.flashNews img {border:0;}
+
+
+.flashNews {position:relative;margin-bottom:12px;overflow:hidden; /* border:1px solid #B6CAE3; */ text-align:left; width:332px;}
+.firstNews {position:relative;float:right;margin-bottom:12px;overflow:hidden;border:1px solid #B6CAE3;}
+.switchimg { width: 332px;}
+.flashNews, .firstNews {height:268px;}
+.flashNews .textbg {position:absolute;left:0;bottom:0;background:#000000;filter:alpha(opacity=39);-moz-opacity:0.39;opacity:0.39; width:332px;height:73px;}
+.flashNews h3 {position:absolute; background: none; left:10px;z-index:2; width: 100%; height:35px;line-height:35px; top:190px;}
+.flashNews h3 a,.flashNews h3 a:visited {font-size:20px;font-family:"黑体";font-weight:normal;color:#FFFFFF;}
+.flashNews h3 a:hover {color:#F20000;}
+.flashNews p {position:absolute;left:10px; z-index:2; background: none; width: 100%; height:20px;line-height:20px; top:220px;}
+.flashNews p a,.flashNews p a:visited {color:#FFFFFF;}
+.flashNews p a:hover {color:#F20000;}
+/*
+.flashNews ul {position:absolute;right:0;bottom:0;padding-left:47px;_padding-left:46px;background:url(flashPage_bg.png) 0 0 no-repeat;z-index:2;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='flashPage_bg.png',sizingMethod='crop')}
+*/
+.switch_btn {position:absolute;right:0;bottom:0;padding-left:47px;_padding-left:46px; background:url(flashPage_bg.png) 0 0 no-repeat; z-index:2; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='flashPage_bg.png',sizingMethod='crop');}
+.flashNews ul li {float:left;line-height:18px;text-align:center;margin: 0px 1px; background:url(/templates/images/imgswitcher/flash_btn.gif) 0px 2px no-repeat; width:15px;height:18px;}
+.flashNews ul li a {display:block;font-size:10px;font-family:Tahoma;font-weight:bold;color:#FFFFFF;width:15px;height:18px;}
+.flashNews ul li a:hover, .flashNews ul li a.sel {color:#F20000;}
+
+.firstNews h3 {line-height:27px;text-indent:14px;font-size:12px;border:1px solid #FFFFFF;background:#F2F6FB; width:332px;height:27px;}
+.firstNews p {position:absolute; top:5px; right:5px; background: none;}
+.firstNews p a {font-size:12px;}
+.firstNews h4 {margin:0 auto;overflow:hidden;padding-top:12px;line-height:25px;font-weight:normal;font-size:18px;font-family:"黑体";width:332px;height:25px;}
+.firstNews ul {overflow:hidden;_zoom:1;margin:0 0 0 12px;width:332px;height:auto;}
+.firstNews ul li {position:relative;overflow:hidden;text-indent:10px;font-size:14px;background:url(/templates/images/imgswitcher/flash_btn.gif) 0px 2px no-repeat; width:332px; height:22px;line-height:22px;}

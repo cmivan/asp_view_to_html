@@ -1,0 +1,502 @@
+﻿@charset "utf-8";
+
+
+/* -----开始推荐产品样式----- */
+#demo_outer{float:left;width:380px;height:120px;overflow:hidden;margin-top:7px;}
+#demo_outer td{padding:0 0 0 5px;text-align:center;}
+#demo_outer td img{height:100px;}
+#demo_outer td span a{display:block;width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsia;margin:0px auto;line-height:20px;}
+/* -----开始推荐产品样式----- */
+
+
+/* -----开始推荐新闻样式----- */
+.i_n_news li{clear:both; display:block; float: left; height:26px; line-height:26px; padding-left: 4px;}
+.i_n_news span{margin-left: 4px; height:26px; line-height:26px;}
+.i_n_news a{float:left; white-space: nowrap; height:26px; line-height:26px;}
+/* -----开始推荐新闻样式----- */
+
+
+/* -----开始主菜单样式----- */
+.split_memu{float:left;display:table-cell;background:url(../images/navline.gif) no-repeat;width:1px;height:24px;}
+
+/* --------控制在中间的样式属性--------- */
+.mainmenu_rtul{float:left;position:relative;white-space:nowrap;height:38px;line-height:38px;text-align:center;}
+
+.ulmainmenu_li
+{
+	float:left;
+	width:100px;
+	display:table-cell;
+	text-align:center;
+	position:relative;
+	white-space:nowrap;
+	height:38px;
+	line-height:38px;
+}
+
+.ulmainmenu_li a:link,.ulmainmenu_li a:visited,.ulmainmenu_li a:hover,.ulmainmenu_li a:active
+{
+	float:left;
+	display:table;
+	width:100px;
+	height:38px;
+	line-height:38px;
+	font-size:14px;
+	text-align:center;
+	color: #fff;
+}
+.ulmainmenu_li a:hover
+{
+	color: #007805;
+	background:url(../images/hover.jpg) no-repeat;
+}
+
+.sub_mainmenudiv
+{
+	background:url(../images/subbg.gif) no-repeat;
+	position: absolute;
+	z-index:1000;
+	width:100%;
+	top:38px;
+	left:0px;
+	height:28px;
+	line-height:28px;
+	overflow: hidden;
+}
+.sub_mainmenudiv div
+{
+	margin:0px auto;
+	width:auto;
+	display:table;
+	text-align:center;
+	height:28px;
+	line-height:28px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.sub_mainmenudiv div span
+{
+	height:28px;
+	line-height:28px;
+	display:table-cell;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.sub_mainmenudiv div a:link,.sub_mainmenudiv div a:visited,.sub_mainmenudiv div a:hover,.sub_mainmenudiv div a:active
+{
+	background:url(../images/icon.gif) no-repeat 0px 3px;
+	white-space:nowrap;
+	color:#424242;
+	height:28px;
+	line-height:28px;
+	padding: 0px 10px;
+	font-size:12px;
+	text-align: center;
+	font-weight: normal;
+	text-decoration:none;
+}
+
+.sub_mainmenudiv div a:hover
+{
+	color:#34A20F;
+}
+
+a.activemenu,a.activemenu:visited
+{
+	color: #007805;
+	background:url(../images/hover.jpg) no-repeat;
+}
+
+a.activemenu:hover
+{
+	color: #007805;
+	background:url(../images/hover.jpg) no-repeat;
+}
+/* -----结束主菜单样式----- */
+
+
+/* -----开始扩展区样式----- */
+
+
+/* 扩展区标题 */
+.i_u_def1,.i_u_def2,.i_u_def3,.i_u_def4,{margin:5px 0 0 0;}
+.i_u_def5,.i_u_def6{margin:15px 0 0 0;}
+.i_u_topic{height:28px;line-height:28px;background:url(../images/line.gif) no-repeat left bottom;}
+.i_u_def5 .i_u_topic,.i_u_def6 .i_u_topic{height:30px;line-height:30px;background:url(../images/line3.gif) repeat-x bottom;}
+.i_u_topic li.top01{float:left;font-weight:bold;height:28px;line-height:28px;color:#36A30A;background:url(../images/icon1.jpg) no-repeat 5px 4px;padding-left:30px;}
+.i_u_topic li.top02{float:right;}
+.i_u_topic li.top02 img{float:left;margin:8px 5px 0 0;}
+
+/* 扩展区图文 */
+.i_u_cont{line-height:22px;margin:5px 0 0 0;}
+.i_u_def1 .i_u_cont{line-height:22px;margin:5px 0 0 0;height:100px;overflow:hidden;}
+
+/* 扩展区新闻列表 */
+.i_u_list{margin:5px 0 0 0;}
+.i_u_list li{line-height:25px;height:25px;background:url(../images/line1.gif) repeat-x bottom;}
+.i_u_list li span{float:right;}
+.i_u_list li a{float:left;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:url(../images/icon1.gif) no-repeat 5px 8px;padding-left:20px;}
+.i_u_def1 .i_u_list li a,.i_u_def2 .i_u_list li a,.i_u_def4 .i_u_list li a,.i_u_def5 .i_u_list li a{width:200px;}
+.i_u_def3 .i_u_list li a{width:400px;}
+.i_u_def5 .i_u_list li,.i_u_def6 .i_u_list li{line-height:30px;height:30px;}
+.i_u_def5 .i_u_list li a,.i_u_def6 .i_u_list li a{background:url(../images/icon1.gif) no-repeat 5px 11px;}
+
+
+/* -----结束扩展区样式----- */
+
+
+/* -----开始产品搜索样式----- */
+#productSearch{float:right;width:160px;padding:15px 15px 0 0;}
+#productSearch font{float:left;line-height:19px;font-size:12px;}
+#keywords{float:right;width:102px; height:16px; border:solid #B2B2B2 1px;}
+#subbtn{margin-top:7px;border:none;background:url(../images/search.jpg) no-repeat;width:60px;height:19px;float:right;color:#fff;}
+/* -----结束产品搜索样式----- */
+
+
+/* -----开始翻页按钮样式----- */
+.navPage{font-family: arial,simsun,sans-serif; font-size: 10px; text-align:center; clear:both; display: table; height:100%;}
+.navPage li{float:left; list-style:none; margin-right:5px;}
+.navPage a{display:block;color:#aaa;font-size:10px;height:12px;width:10px; line-height: 12px;}
+.pagebar a{padding:2px 4px 2px 4px;color:#aaa;text-align:center;border:1px solid #aaa;display:block; text-align:center;font-size:10px;}
+.pagebar a:hover{border:1px solid #36A30A;color:#36A30A;font-size:10px;}
+a.pagebarCurrent{border:1px solid #36A30A;color:#36A30A;font-size:10px;}
+.pagebar_dot{display:block;padding-left:5px;padding-right:0px;padding-bottom:0px;color:#aaa;line-height:100%;padding-top:3px;height:13px;text-decoration:none;}
+/* -----结束翻页按钮样式----- */
+
+
+/* -----开始翻页按钮样式----- */
+.prevnext{clear:both;display:table;height:100%;}
+.prevnext span{clear:both;float:left;}
+/* -----结束翻页按钮样式----- */
+
+
+/* -----开始产品类别样式----- */
+.ullist_sortnav{display:block;height:100%;background:url(../images/bg5.gif) repeat-y;padding:5px 0 0 0;}
+.ullist_sortnav li{position:relative;display:block;clear:both;height:25px;line-height:25px;background:url(../images/icon2.jpg) no-repeat 22px 7px;}
+.ullist_sortnav li a{display:block;text-decoration:none; padding-left:40px; line-height:25px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:185px;}
+.ullist_sortnav li a:hover{text-decoration:none;}
+.ullist_sortnav div{position:absolute;top:0px;left:225px;z-index:800;background-color:#fff;border:1px solid #aaa;border-left:none;}
+/* -----结束产品类别样式----- */
+
+
+/* -----开始友情连接样式----- */
+.p_a_list{clear:both;text-align:center;display:table;height:100%;margin-bottom:15px;}
+.p_a_list li{float:left; padding:0px 10px;margin:5px 0px;}
+.p_a_list div{ height: 40px; width: 110px;text-align:center; overflow:hidden;border:solid 1px #ddd;}
+.p_a_list div img{/* width:160px; */ height: 40px;float:left;}
+.p_a_list span{ line-height:22px; display: block; width: 110px; white-space: nowrap; overflow:hidden; text-overflow:ellipsis;}
+/* -----结束友情连接样式----- */
+
+
+/* -----开始新闻样式----- */
+.p_n_list{clear:both;margin-bottom:15px;}
+.p_n_list li{background:url(../images/line1.gif) repeat-x bottom;height:30px;line-height:30px;width:100%;}
+.p_n_list li a{background:url(../images/icon1.gif) no-repeat 5px 3px;padding-left:20px;height:30px;line-height:30px;}
+.p_n_list div{float:left;}
+.p_n_list span{float:right;}
+
+.p_n_title{text-align:center;height:50px;line-height:50px;font-size:14px;font-weight:bold;}
+.p_n_content{line-height:22px;clear:both;margin:10px 0;}
+.p_n_btn{text-align:center;line-height:30px;}
+.p_n_info{line-height:30px; text-align:right; padding-right: 8px;}
+/* -----结束新闻样式----- */
+
+
+/* -----开始留言样式----- */
+.gbook_indexpost{margin-bottom:8px; padding: 0px 8px;}
+.gbook_lists{line-height:20px; margin-top:8px;word-break:break-all;}
+.gbooktit{border:2px solid #fe5;font-weight:bold;}
+.gbook_formbtn{padding:4px;}
+.gbook_formbtn input,.survey_postbtn input{border:none;line-height:20px; margin-right: 8px;background:#36A30A;color:#fff;}
+.gbook_tblist{margin-bottom:4px;}
+.gbooks_listtitle{background:url(../images/icon04.gif) no-repeat 4px 25px; padding: 20px 0 0 12px; font-size:14px; line-height: 16px; font-weight:bold; color:#282828; border-bottom:3px solid #4B8CB2;}
+
+.p_g_gbook{padding: 0px; /* margin:5px; */}
+.p_g_title{font-weight:bold;line-height:30px;text-align:left; padding-left:10px; clear: both;}
+.p_g_content{text-align:left;line-height:24px; padding-left:20px; clear: both;}
+/* -----结束留言样式----- */
+
+
+
+/* ----开始招聘列表样式---- */
+.p_jv_jobs{ width: 98%; line-height:24px; padding-top:10px; padding-left: 10px; padding-right: 10px;}
+.p_jv_item{ clear:both; }
+.p_jv_title{float:left;clear:left;text-align:left;font-weight:bold;}
+.p_jv_cont{float:left;text-align:left;}
+.p_jv_contb{text-align:left;clear:both;padding:0 0 10px 20px;}
+/* ----结束招聘列表样式---- */
+
+
+/* ----开始产品列表样式---- */
+.p_p_list{text-align:center;display:table;height:100%;padding-bottom:10px;clear:both;}
+.p_p_list li{float:left; width: 150px; padding: 10px 0px 0px 15px;}
+.p_p_list div{width:150px; height: 120px; overflow:hidden; border: 2px solid #ccc; clear: both;}
+.p_p_list div img{height:120px;}
+.p_p_list span{line-height:30px;}
+.p_p_list span a{display: block; white-space: nowrap; overflow:hidden; text-overflow:ellipsis; width:150px;}
+/* ----结束产品列表样式---- */
+
+
+/* ----开始网站地图样式---- */
+
+
+/* 网站地图一级菜单 */
+.p_m_div{padding:0 0 20px 20px;text-align:left;clear: both;}
+.p_m_ul{border-bottom:1px solid #ccc; clear: both; display: table; width: 95%; margin-bottom:20px;}
+.p_m_menu{float:left;font-weight:bold; line-height: 24px;}
+
+
+/* 网站地图二级菜单 */
+.p_m_li2{position:static; clear: both; display: block; margin-left:24px;}
+.p_m_li2 ul{border:0px;white-space:nowrap;padding-right:20px;display:table;}
+.p_m_li2 li{}
+.p_m_div2{}
+
+
+/* 网站地图类别样式 */
+.p_m_li1{margin:0 0 10px 0;float:left;white-space:nowrap;}
+.p_m_li1 ul{}
+.p_m_li1 ul li{float:left;margin-left:24px;line-height:20px;clear:both;}
+.p_m_class span{font-size:12px;line-height:20px;}
+
+
+/* ----结束网站地图样式---- */
+
+
+/* ------在线调查样式开始---- */
+.surver_posttitle{font-size:14px;font-weight:bold;color:#222222;margin-left:12px;}
+.survey_post input{border: 0px;}
+.survey_postbtn{
+	line-height: 30px;
+}
+.survey_postbtn input
+{
+	/*
+	margin-right: 12px;
+	background: url(../images/form/button001.gif) no-repeat;
+	width: 78px;
+	height: 18px !important;
+	height: 20px;
+	*/
+	cursor: pointer;
+	border: 0px;
+}
+
+
+.survey_indexpost{
+	padding-left: 10px;
+	margin-bottom: 8px;
+}
+.survey_indexpost input{
+}
+/* ------在线调查样式结束---- */
+
+
+#xweb-ajax-div,#xweb-ajax-div_0{ clear: both; text-align: left;}
+
+
+/* ----开始网站栏目的详细页的样式设置---- */
+.viewproduct_title
+{
+	font-size:14px;
+	font-weight:bold;
+	clear: both;
+	line-height: 34px;
+	display: block;
+	text-align: center;
+}
+
+.viewproduct_bigimg
+{
+	text-align: center;
+	padding-left: 6px;
+	padding-right: 8px;
+}
+.viewproduct_bigimg img
+{
+	width:300px;
+	border:2px solid #ccc;
+}
+.viewproduct_piclist{}
+.product_others{ margin-top: 8px; clear: both; /* padding-left: 24px; padding: 0px 8px; */}
+.product_others li
+{
+	display: block;
+	clear: both;
+	line-height: 20px;
+}
+
+.onlinebuy_list{ display: table; clear: both;}
+.onlinebuy_list li{float:left; line-height:22px;}
+.onlinebuy_list li.pc01{width:314px; padding-left:14px;}
+.onlinebuy_list li.pc01 img{ width: 300px;}
+.onlinebuy_list li.pc02{ width: 400px; height: auto; line-height:22px;}
+
+.online_buybtn
+{
+	margin: 15px 0px;
+	background: url(../images/ljdga.gif) no-repeat;
+	width: 131px;
+	height: 30px;
+	display: block;
+}
+
+.viewproduct_remark
+{
+	clear: both;
+	margin:20px 0px;
+	line-height: 22px;
+}
+
+.onlinebuy_list{ display: table; clear: both;}
+.onlinebuy_list li{float:left; line-height:22px;}
+.onlinebuy_list li.pc01{width:314px; padding-left:14px;}
+.onlinebuy_list li.pc01 img{ width: 300px;}
+.onlinebuy_list li.pc02{ width: 400px; height: auto; line-height:22px;}
+
+.online_buybtn
+{
+	margin: 15px 0px;
+	background: url(../images/ljdga.gif) no-repeat;
+	width: 131px;
+	height: 30px;
+	display: block;
+}
+
+.viewproduct_infos
+{
+	clear: both;
+	width: 400px;
+	overflow: hidden;
+}
+
+/* ----结束网站栏目的详细页的样式设置---- */
+
+.p_list{
+	padding: 4px 8px;
+}
+
+.p_list ul{
+	clear: both;
+}
+
+.p_list .the_leftli{
+	float: left;
+	width: 156px;
+}
+
+.p_list .the_leftli2{
+	float: right;
+}
+
+.p_list .the_rightli{
+	float: left;
+	padding: 0px 4px;
+	width: 540px;
+}
+
+
+/* ----开始网站Rss订阅中心的样式设置---- */
+.main_rssxmllist
+{
+	clear:both;
+	height: 100%;
+	display: block;
+}
+
+.main_rssxmllist ul
+{
+	margin: 0px;
+	display: block;
+	padding-bottom: 2px;
+}
+
+.rssmain_topbar
+{
+	clear: both;
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 4px;
+	border: solid 1px #ccc;
+}
+
+.rssmain_toptit
+{
+	float: left;
+	font-weight: bold;
+	padding: 2px 0px;
+}
+
+.rssmain_topbtn
+{
+	float: right;
+	display: block;
+	padding-top: 2px;
+}
+
+.rssmain_topbtn .rssxml_url
+{
+	float: left;
+	display: block;
+	line-height: 20px;
+	padding-top: 3px;
+	padding-right: 10px;
+}
+
+.rssmain_topbtn .rssxml_btn
+{
+	float: left;
+	display: block;
+	line-height: 20px;
+}
+
+.rssxml_btn .subscribe_btn
+{
+	clear: both;
+	display: block;
+	cursor: pointer;
+	background: url(../../images/rss_icon.jpg) no-repeat left center;
+	padding-left: 20px;
+	padding-top: 2px;
+	padding-right: 4px;
+}
+
+.rssxml_btn .subscribe_list
+{
+	top: 22px;
+	right: -5px;
+	z-index: 1000;
+	position: absolute;
+	border: solid 1px #ccc;
+	border-top:none;
+	background:#fff;
+	padding: 4px;
+}
+
+.subscribe_list a
+{
+	clear: both;
+	display: block;
+	padding: 4px;
+}
+
+.viewitem_list
+{
+	margin: 0px;
+	padding: 4px 4px 8px 4px;
+}
+
+.viewitem_list ul
+{
+	margin: 0px;
+	padding: 0px;
+	display: table;
+	width: 100%;
+	line-height: 20px;
+}
+.whatisrss_main{background:url(../images/bg5.gif) repeat-y;padding:5px 10px 5px 15px;line-height:20px;}
+.online_rssreader{background:url(../images/bg5.gif) repeat-y;text-align:center;padding:5px 0;}
+.online_rssreader li{width:140px;margin:0px auto;padding:3px 0;}
+.online_rssreader li img{width:140px;}
+/* ----结束网站Rss订阅中心的样式设置---- */

@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+body {font-family:"宋体",Arial, Helvetica, sans-serif;margin:0;padding:0;font-size:12px;color:#767676;}
+div,form,img,ul,ol,li,dl,dt,dd {margin:0;padding:0;border:0;}
+ul,li{list-style-type:none;}
+img{border:0;}
+input,select,textarea{vertical-align:middle;}
+h1,h2,h3,h4,h5,h6 {margin:0;padding:0;font-size:12px;font-weight:normal;}
+/* Link */
+a{color:#767676;text-decoration:none;}
+a:hover {color:#34A20F;text-decoration:none;}
+/* Other */
+.clear{ clear:both;font-size:1px;width:1px;height:0;visibility:hidden; overflow:hidden;}
+.clearfix:after{content:".";display:block; height:0;clear:both;visibility:hidden;} /* only FF */
+.left{float:left;}
+.right{float:right;}
+.img{vertical-align:middle;}
+.img01{vertical-align:middle; padding:0px; line-height:0px;}
+.mauto{width:950px; margin:0 auto;}
+.mtop{padding-top:10px;}
+/* Font  */
+.fb{font-weight:bold;}
+.f12px{font-size:12px;}
+.f14px{font-size:14px;}
+
+
+
+
+/*首页案例的*/
+#index_case div{
+padding:13px;
+width:220px;
+float:left;}
+
+#index_case a img{
+border:#FFFFFF 1px solid;}
+
+#index_case a{
+padding:8px;
+width:208px;
+float:left;
+background-color:#E4E4E4;
+text-decoration:none;}
+#index_case a:hover{
+background-color:#CCCCCC;
+text-decoration:none;}
+#index_case a:hover img{
+border:#FF9900 1px solid;}
